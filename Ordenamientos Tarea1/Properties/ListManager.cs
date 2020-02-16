@@ -61,8 +61,10 @@ namespace Ordenamientos_Tarea1.Properties
             }
         }
         
-        public static void bubbleSort(int[] array)
+        public static long bubbleSort(int[] array)
         {
+            var watch = new System.Diagnostics.Stopwatch();
+            watch.Start();
             int length = array.Length;
 
             int temp = array[0];
@@ -81,6 +83,8 @@ namespace Ordenamientos_Tarea1.Properties
                     }
                 }
             }
+            watch.Stop();
+            return watch.ElapsedMilliseconds;
         }
     }
     

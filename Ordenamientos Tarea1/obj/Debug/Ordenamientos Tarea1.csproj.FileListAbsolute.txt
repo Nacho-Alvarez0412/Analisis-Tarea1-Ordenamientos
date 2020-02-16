@@ -1,5 +1,10 @@
-C:\Users\nacho\OneDrive\Documentos\GitHub\Ordenamientos-Tarea1\Ordenamientos Tarea1\bin\Debug\Ordenamientos_Tarea1.exe
-C:\Users\nacho\OneDrive\Documentos\GitHub\Ordenamientos-Tarea1\Ordenamientos Tarea1\bin\Debug\Ordenamientos_Tarea1.pdb
-C:\Users\nacho\OneDrive\Documentos\GitHub\Ordenamientos-Tarea1\Ordenamientos Tarea1\obj\Debug\Ordenamientos Tarea1.csprojAssemblyReference.cache
-C:\Users\nacho\OneDrive\Documentos\GitHub\Ordenamientos-Tarea1\Ordenamientos Tarea1\obj\Debug\Ordenamientos_Tarea1.exe
-C:\Users\nacho\OneDrive\Documentos\GitHub\Ordenamientos-Tarea1\Ordenamientos Tarea1\obj\Debug\Ordenamientos_Tarea1.pdb
+C:/Users/nacho/OneDrive/Documentos/GitHub/Ordenamientos-Tarea1/Ordenamientos Tarea1/bin/Debug/Ordenamientos_Tarea1.exe
+C:/Users/nacho/OneDrive/Documentos/GitHub/Ordenamientos-Tarea1/Ordenamientos Tarea1/bin/Debug/Ordenamientos_Tarea1.pdb
+C:/Users/nacho/OneDrive/Documentos/GitHub/Ordenamientos-Tarea1/Ordenamientos Tarea1/obj/Debug/Ordenamientos Tarea1.csprojAssemblyReference.cache
+C:/Users/nacho/OneDrive/Documentos/GitHub/Ordenamientos-Tarea1/Ordenamientos Tarea1/obj/Debug/Ordenamientos_Tarea1.exe
+C:/Users/nacho/OneDrive/Documentos/GitHub/Ordenamientos-Tarea1/Ordenamientos Tarea1/obj/Debug/Ordenamientos_Tarea1.pdb
+/Users/sebasgamboa/Documents/GitHub/Analisis de Algoritmos/Ordenamientos-Tarea1/Ordenamientos Tarea1/bin/Debug/Ordenamientos_Tarea1.exe
+/Users/sebasgamboa/Documents/GitHub/Analisis de Algoritmos/Ordenamientos-Tarea1/Ordenamientos Tarea1/bin/Debug/Ordenamientos_Tarea1.pdb
+/Users/sebasgamboa/Documents/GitHub/Analisis de Algoritmos/Ordenamientos-Tarea1/Ordenamientos Tarea1/obj/Debug/Ordenamientos Tarea1.csprojAssemblyReference.cache
+/Users/sebasgamboa/Documents/GitHub/Analisis de Algoritmos/Ordenamientos-Tarea1/Ordenamientos Tarea1/obj/Debug/Ordenamientos_Tarea1.exe
+/Users/sebasgamboa/Documents/GitHub/Analisis de Algoritmos/Ordenamientos-Tarea1/Ordenamientos Tarea1/obj/Debug/Ordenamientos_Tarea1.pdb
