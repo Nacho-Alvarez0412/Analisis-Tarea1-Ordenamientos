@@ -33,7 +33,7 @@ public class WindowGraph : MonoBehaviour
     public static void ShowGraph(List<long> valueList)
     {
         float graphHeight = graphContainer.sizeDelta.y;
-        float yMaximum = 100f;
+        float yMaximum = 300f;
         float xSize = 50f;
         float minXSize = 200;
         float minYSize = 100;
