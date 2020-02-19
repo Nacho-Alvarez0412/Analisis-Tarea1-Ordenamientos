@@ -23,7 +23,7 @@ public class SortingScript : MonoBehaviour
         
         for (int i = 1; i < 16; i++)
         {
-            int arrayLength = i*300;
+            int arrayLength = i*500;
             
             int[] list1 = ListManager.listGenerator(arrayLength);
             long execTime = ListManager.bubbleSort(list1);
@@ -36,7 +36,7 @@ public class SortingScript : MonoBehaviour
 
         for (int i = 1; i < 16; i++)
         {
-            int arrayLength = i * 2500;
+            int arrayLength = i * 500;
             int[] list2 = ListManager.listGenerator(arrayLength);
             var watch = new System.Diagnostics.Stopwatch();
             watch.Start();
