@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,8 +10,6 @@ public class WindowGraph : MonoBehaviour
     [SerializeField] private static Sprite circleSprite;
     private static RectTransform graphContainer;
     
-    
-
     private void Awake()
     {
         graphContainer = transform.Find("GraphContainer").GetComponent<RectTransform>();
@@ -23,6 +22,10 @@ public class WindowGraph : MonoBehaviour
         GameObject gameObject = new GameObject("circle",typeof(Image));
         gameObject.transform.SetParent(graphContainer,false);
         gameObject.GetComponent<Image>().sprite = circleSprite;
+        gameObject.GetComponent<Image>().sprite = AssetDatabase.GetBuiltinExtraResource<Sprite>("UI/Skin/Knob.psd");
+        //gameObject.GetComponent<Color>().gamma = Color.blue;
+        //gameObject.GetComponent<Color>() = ColorOfCircle;
+        //gameObject.GetComponent<SpriteRenderer>().color = new Color(0.16f, 0.12f, 1f);
         RectTransform rectTransform = gameObject.GetComponent<RectTransform>();
         rectTransform.anchoredPosition = anchoredPosition;
         rectTransform.sizeDelta = new Vector2(11,11);
