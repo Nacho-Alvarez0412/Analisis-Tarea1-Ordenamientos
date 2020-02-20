@@ -16,6 +16,44 @@ public class WindowGraph : MonoBehaviour
         //CreateCircle(new Vector2(200,200));
         
     }
+    
+    void OnGUI()
+    {
+        // X AXIS
+        GUI.Label(new Rect(35, 480, 150, 40), "Elements");
+        GUI.Label(new Rect(100, 480, 150, 40), "500");
+        GUI.Label(new Rect(150, 480, 150, 40), "1000");
+        GUI.Label(new Rect(210, 480, 150, 40), "1500");
+        GUI.Label(new Rect(270, 480, 150, 40), "2000");
+        GUI.Label(new Rect(340, 480, 150, 40), "2500");
+        GUI.Label(new Rect(400, 480, 150, 40), "3000");
+        GUI.Label(new Rect(460, 480, 150, 40), "3500");
+        GUI.Label(new Rect(520, 480, 150, 40), "4000");
+        GUI.Label(new Rect(580, 480, 150, 40), "4500");
+        GUI.Label(new Rect(640, 480, 150, 40), "5000");
+        GUI.Label(new Rect(700, 480, 150, 40), "5500");
+        GUI.Label(new Rect(760, 480, 150, 40), "6000");
+        GUI.Label(new Rect(820, 480, 150, 40), "6500");
+        GUI.Label(new Rect(870, 480, 150, 40), "7000");
+        GUI.Label(new Rect(930, 480, 150, 40), "7500");
+        
+        // Y AXIS
+        GUI.Label(new Rect(40, 10, 150, 40), "Miliseconds");
+        GUI.Label(new Rect(40, 430, 150, 40), "5");
+        GUI.Label(new Rect(40, 400, 150, 40), "10");
+        GUI.Label(new Rect(40, 370, 150, 40), "20");
+        GUI.Label(new Rect(40, 340, 150, 40), "60");
+        GUI.Label(new Rect(40, 310, 150, 40), "80");
+        GUI.Label(new Rect(40, 280, 150, 40), "100");
+        GUI.Label(new Rect(40, 250, 150, 40), "120");
+        GUI.Label(new Rect(40, 220, 150, 40), "140");
+        GUI.Label(new Rect(40, 190, 150, 40), "160");
+        GUI.Label(new Rect(40, 160, 150, 40), "180");
+        GUI.Label(new Rect(40, 130, 150, 40), "200");
+        GUI.Label(new Rect(40, 100, 150, 40), "220");
+        GUI.Label(new Rect(40, 70, 150, 40), "240");
+        GUI.Label(new Rect(40, 40, 150, 40), "280");
+    }
 
     public static void CreateCircle(Vector2 anchoredPosition)
     {
@@ -37,9 +75,9 @@ public class WindowGraph : MonoBehaviour
     {
         float graphHeight = graphContainer.sizeDelta.y;
         float yMaximum = 350f;
-        float xSize = 45f;
-        float minXSize = 200;
-        float minYSize = 100;
+        float xSize = 60f;
+        float minXSize = 85;
+        float minYSize = 90;
 
         for (int i = 0; i < valueList.Count; i++)
         {

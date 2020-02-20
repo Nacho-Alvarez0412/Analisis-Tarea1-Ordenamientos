@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+    <e p="C:\Users\nacho\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\nacho\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Ordenamientos.-1781217583.00" t="ExcludeRecursive" />
+    <e p="C:\Users\nacho\OneDrive\Documentos\GitHub\Ordenamientos-Tarea1\Ordenamientos" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="ListManager.cs" t="Include" />
@@ -11,9 +13,7 @@
       <e p="obj" t="ExcludeRecursive" />
       <e p="Ordenamientos.sln" t="IncludeFlat" />
       <e p="Packages" t="ExcludeRecursive" />
-      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_Ordenamientos.-12089127.00" t="ExcludeRecursive" />
   </component>
 </project>

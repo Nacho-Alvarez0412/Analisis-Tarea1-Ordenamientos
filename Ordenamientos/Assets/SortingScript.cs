@@ -12,6 +12,7 @@ public class SortingScript : MonoBehaviour
         this.makeLists();
         
     }
+    
 
     public void makeLists()
     {
