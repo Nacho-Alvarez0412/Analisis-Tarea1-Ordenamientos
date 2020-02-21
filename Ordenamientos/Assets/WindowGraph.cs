@@ -19,6 +19,14 @@ public class WindowGraph : MonoBehaviour
     
     void OnGUI()
     {
+        
+        // MAP LEYEND
+        CreateCircle(new Vector2(35,5),"UI/Skin/UISprite.psd");
+        GUI.Label(new Rect(70, 517, 150, 40), "QuickSort");
+        
+        CreateCircle(new Vector2(130,5),"UI/Skin/Knob.psd");
+        GUI.Label(new Rect(165, 517, 150, 40), "BubbleSort");
+        
         // X AXIS
         GUI.Label(new Rect(35, 480, 150, 40), "Elements");
         GUI.Label(new Rect(100, 480, 150, 40), "500");
@@ -36,6 +44,7 @@ public class WindowGraph : MonoBehaviour
         GUI.Label(new Rect(820, 480, 150, 40), "6500");
         GUI.Label(new Rect(870, 480, 150, 40), "7000");
         GUI.Label(new Rect(930, 480, 150, 40), "7500");
+        
         
         // Y AXIS
         GUI.Label(new Rect(40, 10, 150, 40), "Miliseconds");
@@ -55,15 +64,13 @@ public class WindowGraph : MonoBehaviour
         GUI.Label(new Rect(40, 40, 150, 40), "280");
     }
 
-    public static void CreateCircle(Vector2 anchoredPosition)
+    public static void CreateCircle(Vector2 anchoredPosition,String path)
     {
         GameObject gameObject = new GameObject("circle",typeof(Image));
         gameObject.transform.SetParent(graphContainer,false);
         gameObject.GetComponent<Image>().sprite = circleSprite;
-        gameObject.GetComponent<Image>().sprite = AssetDatabase.GetBuiltinExtraResource<Sprite>("UI/Skin/Knob.psd");
-        //gameObject.GetComponent<Color>().gamma = Color.blue;
-        //gameObject.GetComponent<Color>() = ColorOfCircle;
-        //gameObject.GetComponent<SpriteRenderer>().color = new Color(0.16f, 0.12f, 1f);
+        gameObject.GetComponent<Image>().sprite = AssetDatabase.GetBuiltinExtraResource<Sprite>(path);
+        
         RectTransform rectTransform = gameObject.GetComponent<RectTransform>();
         rectTransform.anchoredPosition = anchoredPosition;
         rectTransform.sizeDelta = new Vector2(11,11);
@@ -71,7 +78,7 @@ public class WindowGraph : MonoBehaviour
         rectTransform.anchorMax = new Vector2(0,0);
     }
 
-    public static void ShowGraph(List<long> valueList)
+    public static void ShowGraph(List<long> valueList,String path)
     {
         float graphHeight = graphContainer.sizeDelta.y;
         float yMaximum = 350f;
@@ -83,7 +90,7 @@ public class WindowGraph : MonoBehaviour
         {
             float xPosition = (i * xSize)+minXSize;
             float yPosition = ((valueList[i] / yMaximum) * graphHeight)+minYSize;
-            CreateCircle(new Vector2(xPosition,yPosition));
+            CreateCircle(new Vector2(xPosition,yPosition),path);
         }
     }
     

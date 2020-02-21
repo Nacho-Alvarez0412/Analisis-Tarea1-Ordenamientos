@@ -33,7 +33,7 @@ public class SortingScript : MonoBehaviour
             
         }
         
-        WindowGraph.ShowGraph(bubbleTimes);
+        WindowGraph.ShowGraph(bubbleTimes,"UI/Skin/Knob.psd");
 
         for (int i = 1; i < 16; i++)
         {
@@ -50,7 +50,7 @@ public class SortingScript : MonoBehaviour
             quickSortTimes.Add(execTime);
         }
         
-        WindowGraph.ShowGraph(quickSortTimes);
+        WindowGraph.ShowGraph(quickSortTimes,"UI/Skin/UISprite.psd");
     }
     
     // Update is called once per frame

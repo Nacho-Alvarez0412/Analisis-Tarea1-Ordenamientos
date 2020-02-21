@@ -17,6 +17,7 @@
       <Path>Library</Path>
       <Path>Logs</Path>
       <Path>Ordenamientos Unity.app</Path>
+      <Path>Temp</Path>
       <Path>obj</Path>
     </explicitExcludes>
   </component>
